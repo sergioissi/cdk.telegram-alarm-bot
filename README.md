@@ -10,7 +10,8 @@ bot and then the bot will write a message like this in your telegram chat:
 Please take a look at <a href="https://docs.aws.amazon.com/lambda/latest/dg/limits.html">Lambda limits</a>
 
 What you have to do before deploy the infrastructure is to create a telegram bot with 'BotFather' and
-save the bot_id, token and chat_id into a secret in AWS Secrets Manager.
+save the bot_id, token and chat_id into a secret in AWS Secrets Manager. You have to change the 'your_secret_id'
+in the lambda_stack.py file.
 
 ## Setup
 
